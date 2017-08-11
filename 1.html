@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EZGame List</title>
+</head>
+<body style="font-family:Tahoma">
+<strong>EZGame List:</strong>
+<br><br>
+<form>
+<input type="checkbox" id="001" onchange="check()"> Angry Birds<br>
+<input type="checkbox" id="002" onchange="check()"> Tekken 6<br>
+<input type="checkbox" id="003" onchange="check()"> Sonic Rivals<br>
+</form>
+<p id="test"></p>
+
+<script>
+function check() {
+  var add = 0;
+  var title = "";
+  if(document.getElementById("001").checked) { add += 120; title += "\<br\>Angry Birds"; }
+  if(document.getElementById("002").checked) { add += 40; title += "\<br\>Tekken 6"; }
+  if(document.getElementById("003").checked) { add += 90; title += "\<br\>Sonic Rivals"; }
+  var price = "Total: " + add + " MB\<br\>"; 
+  document.getElementById('test').innerHTML = "\<pre\>" + price + title + "\<\/pre\>";  
+ }
+
+check();
+</script>
+
+</body>
+</html>
