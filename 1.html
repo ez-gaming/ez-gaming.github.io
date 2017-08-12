@@ -6,32 +6,33 @@
 </head>
 <body style="font-family:Tahoma">
 <strong>EZGame List:</strong>
-<pre>Note: Check the games you want.
-Scroll to the bottom for total MB.
-Around 28gb to 29gb available capacity for
-32gb memory card. Copy and paste listed games
-to carousell.</pre>
+<pre>Check the games you want and scroll
+to the bottom for total size. Around 28gb
+to 29gb useable/available capacity for 32gb
+memory card. Copy and paste listed games to
+carousell.</pre>
 <form>
 <input type="checkbox" id="001" onchange="check()"> Angry Birds<br>
 <input type="checkbox" id="002" onchange="check()"> Tekken 6<br>
 <input type="checkbox" id="003" onchange="check()"> Sonic Rivals<br>
 </form>
 <br>
+<pre>** start copy here**</pre>
 <p id="test"></p>
-
+<pre>** end copy here**</pre>
+<br>
 <script>
 function check() {
-  var add = 0;
-  var title = "";
-  if(document.getElementById("001").checked) { add += 1200; title += "\<br\>Angry Birds"; }
-  if(document.getElementById("002").checked) { add += 4000; title += "\<br\>Tekken 6"; }
-  if(document.getElementById("003").checked) { add += 9000; title += "\<br\>Sonic Rivals"; }
-  var price = "Total: " + add + " MB \( " + (add/1000) +"GB \) \<br\>"; 
-  document.getElementById('test').innerHTML = "\<pre\>" + price + title + "\<\/pre\>";  
- }
-
+var add = 0;
+var title = "";
+if(document.getElementById("001").checked) { add += 1200.051; title += "\<br\>Angry Birds"; }
+if(document.getElementById("002").checked) { add += 4000.213; title += "\<br\>Tekken 6"; }
+if(document.getElementById("003").checked) { add += 9000.00001; title += "\<br\>Sonic Rivals"; }
+var giby = add/1000;
+var price = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +"GB \) \<br\>"; 
+document.getElementById('test').innerHTML = "\<pre\>" + price + title + "\<\/pre\>";  
+}
 check();
 </script>
-
 </body>
 </html>
