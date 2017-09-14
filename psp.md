@@ -952,7 +952,7 @@ if (typeof(jQuery) !== 'undefined')
 floatingMenu.add('floatdiv',
     {
         targetRight: 10,
-        targetTop: 10,
+        targetTop: 100,
         snap: true
     });
 
