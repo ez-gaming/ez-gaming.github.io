@@ -416,6 +416,7 @@ if(document.getElementById("198").checked) { num += 1; add += 1673.63; title += 
 var giby = add/1000;
 var total = num + " Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)"; 
 document.getElementById('test2').innerHTML = total;
+document.getElementById('test3').innerHTML = total;
 var all = num + " Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
 document.getElementById('copyContent').value = all;
 }
@@ -431,6 +432,10 @@ check();
 <div id="floatdiv" style="position: absolute; width:250px;height:70px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
 <div id="test2" >
+0 Games Selected<br>
+Total: 0.00 MB ( 0.00 GB )<br>
+</div>
+<div id="test3" >
 0 Games Selected<br>
 Total: 0.00 MB ( 0.00 GB )<br>
 </div>
