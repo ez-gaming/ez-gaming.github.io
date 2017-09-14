@@ -418,7 +418,6 @@ var total = num + " Games Selected\<br\>Total: " + add.toFixed(2) + " MB \( " + 
 document.getElementById('test2').innerHTML = total;
 var all = num + " Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
 document.getElementById('copyContent').value = all;
-
 }
 check();
 </script>
