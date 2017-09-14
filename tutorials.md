@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-[back](./)
-
 ## PSP Tuturials
 
 *   [How to Update PSP to 6.60 And install PRO-CFW](https://nicoblog.org/guides/update-to-6-60-and-install-pro-cfw/)
