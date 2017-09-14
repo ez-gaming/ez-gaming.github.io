@@ -414,7 +414,7 @@ if(document.getElementById("196").checked) { num += 1; add += 745.86; title += "
 if(document.getElementById("197").checked) { num += 1; add += 1312.7; title += "\nYs vs Sora no Kiseki Alternative Saga English Patch"; }
 if(document.getElementById("198").checked) { num += 1; add += 1673.63; title += "\nYu Gi Oh 5Ds Tag Force 5"; }
 var giby = add/1000;
-var total1 = num + " Games Selected"";
+var total1 = num + " Games Selected";
 var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
 document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
