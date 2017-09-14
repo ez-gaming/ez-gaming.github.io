@@ -430,7 +430,7 @@ check();
     })();
 </script>
 
-<div id="floatdiv" style="position: absolute; width:250px;height:70px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
+<div id="floatdiv" style="position: absolute; width:270px;height:70px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
 <div id="test2" >
 0 Games Selected
