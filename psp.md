@@ -416,9 +416,8 @@ if(document.getElementById("198").checked) { num += 1; add += 1673.63; title += 
 var giby = add/1000;
 
 var total2 = num + " Games Selected"; 
-var total3 = "Total\: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) + " GB \)";
 document.getElementById('test2').innerHTML = total2;
-document.getElementById('test3').innerHTML = total3;
+
 
 var all = num + " Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
 document.getElementById('copyContent').value = all;
