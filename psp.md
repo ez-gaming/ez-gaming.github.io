@@ -414,7 +414,7 @@ if(document.getElementById("196").checked) { num += 1; add += 745.86; title += "
 if(document.getElementById("197").checked) { num += 1; add += 1312.7; title += "\nYs vs Sora no Kiseki Alternative Saga English Patch"; }
 if(document.getElementById("198").checked) { num += 1; add += 1673.63; title += "\nYu Gi Oh 5Ds Tag Force 5"; }
 var giby = add/1000;
-var total = "\<p\>" + num + " Games Selected\<\/p\>\<p\>Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \<\/p\>"; 
+var total = num + " Games Selected\<br\/\>Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)"; 
 document.getElementById('test2').innerHTML = total;
 var all = num + " Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
 document.getElementById('copyContent').value = all;
@@ -431,8 +431,8 @@ check();
 <div id="floatdiv" style="position: absolute; width:245px;height:70px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
 <div id="test2" >
-<p>0 Games Selected</p>
-<p>Total: 0.00 MB ( 0.00 GB )</p>
+0 Games Selected<br/>
+Total: 0.00 MB ( 0.00 GB )<br/>
 </div>
 <button class="btn btn-primary" data-clipboard-action="copy" data-clipboard-target="#copyContent" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
 <textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;right: -50px;overflow: hidden;" ></textarea>
