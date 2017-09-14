@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-[back](./)
-
 ## PSVita Game List
 
 <pre>Check the games you want. Useable capacity for
