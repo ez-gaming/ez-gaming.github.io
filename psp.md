@@ -441,8 +441,8 @@ Total: 0.00 MB ( 0.00 GB )
 <div id="test4" >
 <button class="btn btn-primary" data-clipboard-action="copy" data-clipboard-target="#copyContent" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
 </div>
-<div id="test5" style="display: none;">
-<textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;right: -50px;overflow: hidden;" ></textarea>
+<div id="test5">
+<textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;right: -500px;overflow: hidden;" ></textarea>
 </div>
 </div>
 </div> 
