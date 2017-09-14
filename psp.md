@@ -422,9 +422,6 @@ document.getElementById('copyContent').value = all;
 check();
 </script>
 
-<script src=https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.15/clipboard.min.js>
-</script>
-
 <script>
     (function(){
         var clipboard = new Clipboard('.btn');
