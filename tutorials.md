@@ -13,5 +13,3 @@ layout: default
 *   [PS Vita General Guide](//bit.ly/2lO7bva){:target="_blank"}
 *   [How to prep SD2VITA adapter](//bit.ly/2NeXvXH){:target="_blank"}
 *   [PSVita games size guide](//bit.ly/2KUqqmZ){:target="_blank"}
-
-[back](./)
