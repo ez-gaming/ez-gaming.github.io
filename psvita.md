@@ -846,4 +846,4 @@ floatingArray[0].centerY=undefined;
 
 [back](./)
 
-PSVita game sizes information is from <a href="http://www.ign.com/wikis/ps-vita/Vita_Games_Sizes" rel="nofollow" target="_blank">IGN</a>.<br>
+PSVita game sizes information is from <a href="//bit.ly/2KUqqmZ" rel="nofollow" target="_blank">IGN</a>.<br>
