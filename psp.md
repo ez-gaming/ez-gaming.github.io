@@ -1053,5 +1053,3 @@ floatingArray[0].centerX=undefined;
 floatingArray[0].centerY=undefined;
 }
 //--></script>
-
-[back](./)
