@@ -3,21 +3,17 @@ layout: default
 ---
 ## PSP Game List
 
-<pre><center>
-Note: Enable Javascript to load this
-page properly
+Note: Enable Javascript to load this page properly
 
-Check the games you want.
-Useable capacity for
-Memory Stick are as follows:
+Steps:
+1. Select / Check mark the games that you want. 
+2. Check Useable capacity for Memory Stick below.
+3. Click "Copy to Clipboard" and paste to Carousell chat.
 
+Memory Stick Capacity guide:
 3.87 GB for 4 GB memory card
 7.79 GB for 8 GB memory card
 28.5 GB for 32 GB memory card
-
-Click "Copy to Clipboard" and paste to carousell chat.
-</center>
-</pre>
 
 <label><input type="checkbox" id="001" onchange="check()"> 300 March To Glory</label><br>
 <label><input type="checkbox" id="002" onchange="check()"> Angry Birds</label><br>
