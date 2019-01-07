@@ -10,10 +10,10 @@ Steps:
 2. Check Useable capacity for Memory Stick below.
 3. Click "Copy to Clipboard" and paste to Carousell chat.
 
-Memory Stick Capacity guide:
-3.87 GB for 4 GB memory card
-7.79 GB for 8 GB memory card
-28.5 GB for 32 GB memory card
+Memory Stick Capacity guide:<br><br>
+3.87 GB for 4 GB memory card<br>
+7.79 GB for 8 GB memory card<br>
+28.5 GB for 32 GB memory card<br>
 
 <label><input type="checkbox" id="001" onchange="check()"> 300 March To Glory</label><br>
 <label><input type="checkbox" id="002" onchange="check()"> Angry Birds</label><br>
