@@ -3,7 +3,7 @@ layout: default
 ---
 ## PSP Tuturials
 
-*   [How to Update PSP to 6.60 And install PRO-CFW](//bit.ly/2LjSkoD){:target="_blank"}
+*   [How to Update PSP to 6.60 And install PRO-CFW](/Pops-Compatibility-List.html){:target="_blank"}
 *   [Popsloader compatibility list](//bit.ly/2ulo8TI){:target="_blank"}
 *   [PSP games size guide](//bit.ly/2NaWeRp){:target="_blank"}
 
