@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-## How to Connect to WiFI Network?
+## How to Connect to Wi-Fi Network?
 *   From the Vita home screen, tap <strong>Settings</strong> 
 *   Select <strong>Start<strong>
 *   Select <strong>Network<strong>
 *   Select <strong>Wi-Fi Settings<strong>
 *   Choose the wireless network (also called the Network Name or SSID) to which you would like to connect. If you are using a Shaw wireless modem you will be able to find your network name and password via the white sticker on the top of the modem
-*   Enter the WiFi password for your wireless networks and connect. A solid green dot will display on the left side of your network name indicating successful connection
+*   Enter the Wi-Fi password for your wireless networks and connect. A solid green dot will display on the left side of your network name indicating successful connection
 
 ## How to install PS Vita Games?
 (Prerequisite: PKGj & NoNpDRM)-preinstalled
@@ -64,14 +64,14 @@ layout: default
 ## How to screenshot your PS Vita screen?
 (Prerequisite: pngshot)-preinstalled
 *   While you're anywhere on your vita press "PS Button + Start" together.
-*   Your screen should flicker indicating a screeshot has been made. The png file will then be available in the Camera app.
+*   Your screen should flicker indicating a screenshot has been made. The png file will then be available in the Camera app.
 *   For more info about pngshot [click here](//bit.ly/36wGHF6){:target="_blank"}
 
 ## How to Overclock your vita?
 (Prerequisite: PSVshell)-preinstalled
 *   From the Vita home screen, press <strong>SELECT + UP</strong> to toggle between 3 GUI modes
-*   For more info and indept instructions about using PSVshell to overclock your vita [click here](//bit.ly/34l3Rg5){:target="_blank"}
+*   For more info and in-depth instructions about using PSVshell to overclock your vita [click here](//bit.ly/34l3Rg5){:target="_blank"}
 *   Caution though overclocking shortens your battery life and possibly your vita as well. Use only if you really need to. Research before doing anything to your vita.
 
 ## Pro TIP!!
-*   If you experience anything out of the ordinary or any malfunction, just reboot or shutdown then turn back on your vita. Long press on the power botton until you see a shutdown botton appear on screen. Most the time a simple reboot solves common issues. Enjoy and have fun on your modded PS Vita.
+*   If you experience anything out of the ordinary or any malfunction, just reboot or shutdown then turn back on your vita. Long press on the power button until you see a shutdown button appear on screen. Most the time a simple reboot solves common issues. Enjoy and have fun on your modded PS Vita.
