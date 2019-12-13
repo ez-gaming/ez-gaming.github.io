@@ -10,7 +10,7 @@ layout: default
 *   Enter the WiFi password for your wireless networks and connect. A solid green dot will display on the left side of your network name indicating successful connection
 
 ## How to install PS Vita Games?
-(Prerequisite: PKGj & NoNpDRM)
+(Prerequisite: PKGj & NoNpDRM)-preinstalled
 *   From the Vita home screen, tap <strong>PKGj</strong> App
 *   Select <strong>Start<strong>
 *   It should list all available games for download
