@@ -64,7 +64,7 @@ layout: default
 ## How to screenshot your PS Vita screen?
 (Prerequisite: pngshot)-preinstalled
 *   While you're anywhere on your vita press "PS Button + Start" together.
-*   Your screen should flicker indicating a screeshot has been made. The png file wile then be available in the Camera app.
+*   Your screen should flicker indicating a screeshot has been made. The png file will then be available in the Camera app.
 *   For more info about pngshot [click here](//bit.ly/36wGHF6){:target="_blank"}
 
 ## How to Overclock your vita?
@@ -74,4 +74,4 @@ layout: default
 *   Caution though overclocking shortens your battery life and possibly your vita as well. Use only if you really need to. Research before doing anything to your vita.
 
 ## Pro TIP!!
-*   If you experience anything out of the ordinary or any malfunction, just reboot or shutdown the turn back on your vita. Long press on the power botton until you see a shutdown botton appear on screen. Most the time a simple reboot solve common issues. Enjoy and have fun on your modded PS Vita.
+*   If you experience anything out of the ordinary or any malfunction, just reboot or shutdown then turn back on your vita. Long press on the power botton until you see a shutdown botton appear on screen. Most the time a simple reboot solves common issues. Enjoy and have fun on your modded PS Vita.
