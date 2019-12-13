@@ -3,5 +3,5 @@ layout: default
 ---
 
 <center>
-Whether you're a pro or casual gamer, we all love to game. Be it on your mobile phone or on your new PlayStation 4 Pro we just love to game. They said that the PSP is long dead or that the PSVita is also dead. Well in a sense yes, they're right. But there are tons of games on those platform and we love to let everyone who love games rekindle how fun those games are. If you're new to the PSP, welcome! We have a lot of cool games for you. If your an old PSP gamer, welcome back. Share your most fun memories playing games. We'd love to hear from you. Let's play!
+It is definitely better than a PSP. Better screen as well as having two analog stick which is very useful in some games. Being able to emulate PSP games means you have the best of both worlds. All the triple A titles of the PSP as well as all the best vita games are just within your reach. Having a modded vita opens to vast array of homebrews as well as free game (wink-wink). And while you’re at it upgrade the vita memory to at least 128gb microsd using sd2vita solve the high priced vita memory cards. Run and install emulators to play your childhood retro games for nostalgia. A handheld gaming console that is way cheaper than a Nintendo switch and hundreds if not thousands of game available to play is safe to say a gamers dream handheld console.
 </center>
