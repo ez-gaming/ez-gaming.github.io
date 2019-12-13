@@ -10,3 +10,4 @@ layout: default
 *   Enter the WiFi password for your wireless networks and connect. A solid green dot will display on the left side of your network name indicating successful connection.
 
 ## How to install PS Vita Games?
+(Prerequisite: PKGj & NoNpDRM)
