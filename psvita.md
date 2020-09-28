@@ -109,12 +109,23 @@ PSVita cards Capacity guide:<br>
 <label><input type="checkbox" id="089" onchange="check()"> The Walking Dead The Complete First Season</label><br>
 <label><input type="checkbox" id="090" onchange="check()"> Wipeout 2048</label><br>
 <label><input type="checkbox" id="091" onchange="check()"> Zero Escape Virtues Last Reward</label><br>
-<label><input type="checkbox" id="092" onchange="check()"> Ys Memories of Celceta</label><br>
-<br>
-<div id="test5">
-<textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;left: -9999px;overflow: hidden;" ></textarea>
-</div>
+<label><input type="checkbox" id="092" onchange="check()"> Ys Memories of Celceta</label>
 
+<div id="divCheckbox" style="display:none"><p id="demo"></p></div>
+
+<div id="floatdiv" style="position: absolute; width:300px;height:110px;top:10px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
+<div>
+    <div id="test2" style="text-align: center;">
+    Select Games
+    </div>
+    <div id="test3"  style="text-align:center;overflow:hidden;width:280px;">
+    Click the Check Box
+    </div>
+    <div id="test4" >
+    <button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey; width:100%;">Copy to Clipboard</button>
+    </div>
+</div>
+</div> 
 
 <script>
 function check() {
@@ -219,14 +230,12 @@ var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
 document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
 var all = num + " PSVITA Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
-document.getElementById('copyContent').value = all;
+document.getElementById("demo").innerHTML = all;
 }
 check();
-    
+
 function myFunction() {
-var x = document.getElementById("copyContent");
-var y = x.value;
-var copyText0 = document.getElementById("copyContent");
+var y = document.getElementById("demo").innerHTML;
 var el = document.createElement('textarea');
 el.value = y;
 el.setAttribute('readonly', '');
@@ -235,34 +244,9 @@ document.body.appendChild(el);
 el.select();
 document.execCommand('copy');
 document.body.removeChild(el);
-}  
+}
 </script>
-
-<!--
-<script>
-    (function(){
-        var clipboard = new Clipboard('.btn');
-    })();
-</script>
--->
-
-<div id="floatdiv" style="position: absolute; width:280px;height:110px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
-<div>
-<div id="test2" >
-0 Games Selected
-</div>
-<div id="test3" >
-Total: 0.00 MB ( 0.00 GB )
-</div>
-<div id="test4" >
-
-<!--<button class="btn btn-primary" data-clipboard-action="copy" data-clipboard-target="#copyContent" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>-->
-
-<button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
-</div>
-</div>
-</div> 
-  
+ 
   
   <script type="text/javascript"><!--
 /* Script by: www.jtricks.com
