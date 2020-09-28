@@ -447,11 +447,13 @@ document.body.removeChild(el);
 }
 </script>
 
+<!--
 <script>
     (function(){
         var clipboard = new Clipboard('.btn');
     })();
 </script>
+-->
 
 <div id="floatdiv" style="position: absolute; width:280px;height:110px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
