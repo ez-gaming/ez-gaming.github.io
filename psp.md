@@ -437,7 +437,7 @@ var y = x.value;
 
 var copyText0 = document.getElementById("copyContent");
    var el = document.createElement('textarea');
-   el.value = y;
+   el.value = all;
    el.setAttribute('readonly', '');
    el.style = {position: 'absolute', left: '-9999px'};
    document.body.appendChild(el);
