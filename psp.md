@@ -4,7 +4,7 @@ layout: default
 ## PSP Game List
 
 Note: Enable Javascript to load this page properly
-newnum
+newnumelse
 
 <!--
 Steps:
@@ -443,7 +443,9 @@ document.getElementById("demo").innerHTML = all;
 if (num > 0) {
 document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
-}
+} else {
+document.getElementById('test2').innerHTML = "Select Games";
+document.getElementById('test3').innerHTML = "Click the Check Box";
 }
 check();
 function myFunction() {
