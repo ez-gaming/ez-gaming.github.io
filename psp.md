@@ -218,6 +218,7 @@ Memory Stick Capacity guide:<br>
 <div id="test5">
 <textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;left: -9999px;overflow: hidden;" ></textarea>
 </div>
+<div id="divhidden" style="visibility: hidden"></div>
 
 <script>
 function check() {
