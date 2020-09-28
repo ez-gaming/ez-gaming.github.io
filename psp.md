@@ -434,16 +434,15 @@ check();
 function myFunction() {
 var x = document.getElementById("copyContent");
 var y = x.value;
-
 var copyText0 = document.getElementById("copyContent");
-   var el = document.createElement('textarea');
-   el.value = all;
-   el.setAttribute('readonly', '');
-   el.style = {position: 'absolute', left: '-9999px'};
-   document.body.appendChild(el);
-   el.select();
-   document.execCommand('copy');
-   document.body.removeChild(el);
+var el = document.createElement('textarea');
+el.value = y;
+el.setAttribute('readonly', '');
+el.style = {position: 'absolute', left: '-9999px'};
+document.body.appendChild(el);
+el.select();
+document.execCommand('copy');
+document.body.removeChild(el);
 }
 </script>
 
@@ -465,7 +464,7 @@ Total: 0.00 MB ( 0.00 GB )
 <button class="btn btn-primary" data-clipboard-action="copy" data-clipboard-target="#copyContent" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
 </div>
 <div id="test5" >
-<button onclick="myFunction()">Copy</button>
+<button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy</button>
 </div>
 </div>
 </div> 
