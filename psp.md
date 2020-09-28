@@ -430,14 +430,14 @@ check();
     
 function myFunction() {
 document.getElementById('test7').innerHTML = "Copied";
-el = document.createElement("textarea");
-el.value = all;
-var copyText = document.getElementById("textarea");
-document.body.appendChild(el);
-copyText.select();
-copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-document.execCommand("copy");
-document.body.removeChild(el);
+//el = document.createElement("textarea");
+//el.value = all;
+//var copyText = document.getElementById("textarea");
+//document.body.appendChild(el);
+//copyText.select();
+//copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+//document.execCommand("copy");
+//document.body.removeChild(el);
 }
 </script>
 
@@ -462,7 +462,7 @@ Total: 0.00 MB ( 0.00 GB )
 <textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;left: -9999px;overflow: hidden;" ></textarea>
 </div>
 <div id="test6" >
-<button onclick="myFunction()">Copy text</button>
+<button onclick="myFunction()">Copy</button>
 </div>
 <div id="test7" >
 ...
