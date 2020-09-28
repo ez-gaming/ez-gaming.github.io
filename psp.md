@@ -222,7 +222,7 @@ Memory Stick Capacity guide:<br>
     <div id="test2" style="text-align: center;">
     Select Games
     </div>
-    <div id="test3"  style="text-align: center;">
+    <div id="test3"  style="text-align: center;overflow: hidden;">
     Click on the Check Box
     </div>
     <div id="test4" >
