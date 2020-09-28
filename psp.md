@@ -434,7 +434,7 @@ check();
 function myFunction() {
 var x = document.getElementById("divhidden");
 var y = x.value;
-var copyText0 = document.getElementById("copyContent");
+var copyText0 = document.getElementById("divhidden");
 var el = document.createElement('textarea');
 el.value = y;
 el.setAttribute('readonly', '');
