@@ -429,15 +429,15 @@ document.getElementById('copyContent').value = all;
 check();
     
 function myFunction() {
+document.getElementById('test7').innerHTML = "Copied";
 el = document.createElement("textarea");
 el.value = all;
 var copyText = document.getElementById("textarea");
-//document.body.appendChild(el);
+document.body.appendChild(el);
 copyText.select();
 copyText.setSelectionRange(0, 99999); /*For mobile devices*/
 document.execCommand("copy");
 document.body.removeChild(el);
-document.getElementById('test7').innerHTML = "Copied";
 }
 </script>
 
