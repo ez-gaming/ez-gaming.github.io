@@ -429,7 +429,7 @@ document.getElementById('copyContent').value = all;
 check();
     
 function myFunction() {
-document.getElementById('test7').innerHTML = "Copied";
+document.getElementById('test7').innerHTML = all;
 //el = document.createElement("textarea");
 //el.value = all;
 //var copyText = document.getElementById("textarea");
