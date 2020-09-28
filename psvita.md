@@ -5,10 +5,11 @@ layout: default
 
 Note: Enable Javascript to load this page properly
 
+<!--
 Steps:
 1. Select / Check mark the games that you want. 
 2. Check Useable capacity for PSVita cards below.
-3. Click "Copy to Clipboard" and paste to Carousell chat.
+3. Click "Copy to Clipboard" and paste to Carousell chat. -->
 
 PSVita cards Capacity guide:<br>
 3.73 GB for 4 GB memory card<br>
@@ -110,6 +111,11 @@ PSVita cards Capacity guide:<br>
 <label><input type="checkbox" id="091" onchange="check()"> Zero Escape Virtues Last Reward</label><br>
 <label><input type="checkbox" id="092" onchange="check()"> Ys Memories of Celceta</label><br>
 <br>
+<div id="test5">
+<textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;left: -9999px;overflow: hidden;" ></textarea>
+</div>
+
+
 <script>
 function check() {
 var add = 0;
@@ -216,13 +222,29 @@ var all = num + " Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.t
 document.getElementById('copyContent').value = all;
 }
 check();
+    
+function myFunction() {
+var x = document.getElementById("copyContent");
+var y = x.value;
+var copyText0 = document.getElementById("copyContent");
+var el = document.createElement('textarea');
+el.value = y;
+el.setAttribute('readonly', '');
+el.style = {position: 'absolute', left: '-9999px'};
+document.body.appendChild(el);
+el.select();
+document.execCommand('copy');
+document.body.removeChild(el);
+}  
 </script>
 
+<!--
 <script>
     (function(){
         var clipboard = new Clipboard('.btn');
     })();
 </script>
+-->
 
 <div id="floatdiv" style="position: absolute; width:280px;height:110px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
@@ -233,10 +255,10 @@ check();
 Total: 0.00 MB ( 0.00 GB )
 </div>
 <div id="test4" >
-<button class="btn btn-primary" data-clipboard-action="copy" data-clipboard-target="#copyContent" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
-</div>
-<div id="test5">
-<textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;right: -500px;overflow: hidden;" ></textarea>
+
+<!--<button class="btn btn-primary" data-clipboard-action="copy" data-clipboard-target="#copyContent" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>-->
+
+<button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
 </div>
 </div>
 </div> 
