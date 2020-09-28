@@ -428,21 +428,19 @@ document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
 var all = num + " Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
 document.getElementById('copyContent').value = all;
-var clipboard = new Clipboard('.btn');
 }
 check();
     
 function myFunction() {
-var all = document.getElementById('test3').innerHTML;
 document.getElementById('test7').innerHTML = all;
-//el = document.createElement("textarea");
-//el.value = all;
-//var copyText = document.getElementById("textarea");
-//document.body.appendChild(el);
-//copyText.select();
-//copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-//document.execCommand("copy");
-//document.body.removeChild(el);
+el = document.createElement("textarea");
+el.value = "test";
+var copyText = document.getElementById("textarea");
+document.body.appendChild(el);
+copyText.select();
+copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+document.execCommand("copy");
+document.body.removeChild(el);
 }
 </script>
 
