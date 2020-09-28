@@ -224,7 +224,7 @@ Memory Stick Capacity guide:<br>
     Select Games
     </div>
     <div id="test3"  style="text-align: center;overflow: hidden;width:280px">
-    Click on the Check Box
+    Click the Check Box
     </div>
     <div id="test4" >
     <button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;; width:100%">Copy to Clipboard</button>
@@ -438,9 +438,12 @@ if(document.getElementById("198").checked) { num += 1; add += 1673.63; title += 
 var giby = add/1000;
 var total1 = num + " Games Selected";
 var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
-if (num <> 0) {
+if (num == 0) {
 document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
+} else {
+document.getElementById('test2').innerHTML = "Select Games";
+document.getElementById('test3').innerHTML = "Click the Check Box";
 }
 var all = num + " PSP Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
 document.getElementById("demo").innerHTML = all;
