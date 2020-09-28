@@ -439,15 +439,12 @@ if(document.getElementById("198").checked) { xx = 1; num += 1; add += 1673.63; t
 var giby = add/1000;
 var total1 = num + " Games Selected";
 var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
-var all = num + " PSP Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
-document.getElementById("demo").innerHTML = all;
-    
-
 document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
-
-
+var all = num + " PSP Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
+document.getElementById("demo").innerHTML = all;
 check();
+
 function myFunction() {
 var y = document.getElementById("demo").innerHTML;
 var el = document.createElement('textarea');
