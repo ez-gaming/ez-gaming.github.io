@@ -4,7 +4,7 @@ layout: default
 ## PSP Game List
 
 Note: Enable Javascript to load this page properly
-001
+num
 
 <!--
 Steps:
@@ -223,7 +223,7 @@ Memory Stick Capacity guide:<br>
     <div id="test2" style="text-align: center;">
     Select Games
     </div>
-    <div id="test3"  style="text-align: center;overflow: hidden;">
+    <div id="test3"  style="text-align: center;overflow: hidden;width:280px">
     Click on the Check Box
     </div>
     <div id="test4" >
@@ -438,8 +438,10 @@ if(document.getElementById("198").checked) { num += 1; add += 1673.63; title += 
 var giby = add/1000;
 var total1 = num + " Games Selected";
 var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
+if (num <> 0) {
 document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
+}
 var all = num + " PSP Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
 document.getElementById("demo").innerHTML = all;
 }
