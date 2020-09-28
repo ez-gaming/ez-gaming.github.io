@@ -428,6 +428,7 @@ document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
 var all = num + " Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
 document.getElementById('copyContent').value = all;
+var clipboard = new Clipboard('.btn');
 }
 check();
     
@@ -461,15 +462,6 @@ Total: 0.00 MB ( 0.00 GB )
 </div>
 <div id="test4" >
 <button class="btn btn-primary" data-clipboard-action="copy" data-clipboard-target="#copyContent" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
-</div>
-<div id="test5">
-<textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;left: -9999px;overflow: hidden;" ></textarea>
-</div>
-<div id="test6" >
-<button onclick="myFunction()">Copy</button>
-</div>
-<div id="test7" >
-...
 </div>
 </div>
 </div> 
