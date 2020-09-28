@@ -5,11 +5,11 @@ layout: default
 
 Note: Enable Javascript to load this page properly
 
-<--
+/*
 Steps:
 1. Select / Check mark the games that you want. 
 2. Check Useable capacity for Memory Stick below.
-3. Click "Copy to Clipboard" and paste to Carousell chat. -->
+3. Click "Copy to Clipboard" and paste to Carousell chat. */
 
 Memory Stick Capacity guide:<br>
 3.87 GB for 4 GB memory card<br>
