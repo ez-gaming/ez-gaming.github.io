@@ -431,8 +431,8 @@ document.getElementById("demo").innerHTML = all;
 }
 check();
 function myFunction() {
-var xx = document.getElementById('copyContent');
-var x = document.getElementById("demo").innerHTML
+var x = document.getElementById('copyContent');
+var y = document.getElementById("demo").innerHTML;
 var el = document.createElement('textarea');
 el.value = y;
 el.setAttribute('readonly', '');
