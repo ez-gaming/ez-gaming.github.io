@@ -226,7 +226,7 @@ Select Games
 Click on the Check Box
 </div>
 <div id="test4" >
-<button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
+<button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;; width:260px">Copy to Clipboard</button>
 </div>
 </div>
 </div> 
