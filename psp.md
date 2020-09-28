@@ -432,18 +432,18 @@ document.getElementById('copyContent').value = all;
 check();
     
 function myFunction() {
+var x = document.getElementById("copyContent");
+var y = x.value;
+
 var copyText0 = document.getElementById("copyContent");
-  copyText0.select();
-  copyText0.setSelectionRange(0, 99999); /*For mobile devices*/
-document.execCommand("copy");
-el = document.createElement("textarea");
-el.value = copyText0;
-var copyText = document.getElementById("textarea");
-document.body.appendChild(el);
-copyText.select();
-copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-document.execCommand("copy");
-document.body.removeChild(el);
+   var el = document.createElement('textarea');
+   el.value = y;
+   el.setAttribute('readonly', '');
+   el.style = {position: 'absolute', left: '-9999px'};
+   document.body.appendChild(el);
+   el.select();
+   document.execCommand('copy');
+   document.body.removeChild(el);
 }
 </script>
 
