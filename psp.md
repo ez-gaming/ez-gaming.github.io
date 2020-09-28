@@ -216,7 +216,7 @@ Memory Stick Capacity guide:<br>
 <label><input type="checkbox" id="197" onchange="check()"> Ys vs Sora no Kiseki Alternative Saga English Patch</label><br>
 <label><input type="checkbox" id="198" onchange="check()"> Yu Gi Oh 5Ds Tag Force 5</label>
 
-<div id="divCheckbox" style="visibility: hidden"><p id="demo"></p></div>
+<div id="divCheckbox" style="visibility: hidden;display:none;"><p id="demo"></p></div>
 
 <div id="floatdiv" style="position: absolute; width:300px;height:110px;top:10px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
