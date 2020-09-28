@@ -442,13 +442,10 @@ var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
 var all = num + " PSP Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
 document.getElementById("demo").innerHTML = all;
     
-if (xx = 1) {
+
 document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
-} else {
-document.getElementById('test2').innerHTML = "Select Games";
-document.getElementById('test3').innerHTML = "Click the Check Box";
-}
+
 
 check();
 function myFunction() {
