@@ -219,10 +219,10 @@ Memory Stick Capacity guide:<br>
 
 <div id="floatdiv" style="position: absolute; width:300px;height:110px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
-<div id="test2" >
+<div id="test2" style="margin: 0 auto;">
 Select Games
 </div>
-<div id="test3" >
+<div id="test3"  style="margin: 0 auto;">
 Click on the Check Box
 </div>
 <div id="test4" >
