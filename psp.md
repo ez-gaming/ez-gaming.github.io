@@ -430,12 +430,13 @@ document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
 var all = num + " PSP Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
 document.getElementById('copyContent').value = all;
+var y = all;
 }
 check();
-    
+
 function myFunction() {
 var x = document.getElementById('copyContent');
-var y = x.value;
+
 var el = document.createElement('textarea');
 el.value = y;
 el.setAttribute('readonly', '');
