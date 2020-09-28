@@ -4,7 +4,6 @@ layout: default
 ## PSP Game List
 
 Note: Enable Javascript to load this page properly
-003-hidden div
 
 <!--
 Steps:
@@ -426,12 +425,10 @@ var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
 document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
 var all = num + " PSP Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
-document.getElementById('copyContent').value = all;
 document.getElementById("demo").innerHTML = all;
 }
 check();
 function myFunction() {
-var x = document.getElementById('copyContent');
 var y = document.getElementById("demo").innerHTML;
 var el = document.createElement('textarea');
 el.value = y;
@@ -445,9 +442,6 @@ document.body.removeChild(el);
 </script>
 
 <div id="divCheckbox" style="visibility: hidden"><p id="demo"></p></div>
-<div id="test5">
-<textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;left: -9999px;overflow: hidden;" ></textarea>
-</div>
 
 <div id="floatdiv" style="position: absolute; width:300px;height:110px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
