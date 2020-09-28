@@ -218,7 +218,7 @@ var total1 = num + " Games Selected";
 var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
 document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
-var all = num + " Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
+var all = num + " PSVITA Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
 document.getElementById('copyContent').value = all;
 }
 check();
