@@ -4,7 +4,7 @@ layout: default
 ## PSP Game List
 
 Note: Enable Javascript to load this page properly
-try1
+try2
 
 <!--
 Steps:
@@ -216,7 +216,7 @@ Memory Stick Capacity guide:<br>
 <label><input type="checkbox" id="197" onchange="check()"> Ys vs Sora no Kiseki Alternative Saga English Patch</label><br>
 <label><input type="checkbox" id="198" onchange="check()"> Yu Gi Oh 5Ds Tag Force 5</label>
 
-<div id="divCheckbox" style="visibility: hidden;display:none;"><p id="demo"></p></div>
+<div id="divCheckbox" style="display:none"><p id="demo"></p></div>
 
 <div id="floatdiv" style="position: absolute; width:300px;height:110px;top:10px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
@@ -237,7 +237,6 @@ function check() {
 var add = 0;
 var num = 0;
 var title = "";
-var xx = "";
 if(document.getElementById("001").checked) { num += 1; add += 931.62; title += "\n300 March To Glory"; }
 if(document.getElementById("002").checked) { num += 1; add += 165.31; title += "\nAngry Birds"; }
 if(document.getElementById("003").checked) { num += 1; add += 1007.9; title += "\nApe Academy 2"; }
@@ -435,17 +434,17 @@ if(document.getElementById("194").checked) { num += 1; add += 1705.6; title += "
 if(document.getElementById("195").checked) { num += 1; add += 1295.81; title += "\nX Men Legends II Rise Of Apocolypse"; }
 if(document.getElementById("196").checked) { num += 1; add += 745.86; title += "\nYs Seven"; }
 if(document.getElementById("197").checked) { num += 1; add += 1312.7; title += "\nYs vs Sora no Kiseki Alternative Saga English Patch"; }
-if(document.getElementById("198").checked) { xx = 1; num += 1; add += 1673.63; title += "\nYu Gi Oh 5Ds Tag Force 5"; }
+if(document.getElementById("198").checked) { num += 1; add += 1673.63; title += "\nYu Gi Oh 5Ds Tag Force 5"; }
 var giby = add/1000;
 var total1 = num + " Games Selected";
 var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
 
-if (xx = 1) {
-document.getElementById('test2').innerHTML = total1;
-document.getElementById('test3').innerHTML = total2;
-} else {
+if (num = 0) {
 document.getElementById('test2').innerHTML = "test";
 document.getElementById('test3').innerHTML = "test";
+} else {
+document.getElementById('test2').innerHTML = total1;
+document.getElementById('test3').innerHTML = total2;
 }
 
 var all = num + " PSP Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
