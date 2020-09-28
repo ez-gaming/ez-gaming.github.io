@@ -4,7 +4,7 @@ layout: default
 ## PSP Game List
 
 Note: Enable Javascript to load this page properly
-002-hidden div
+003-hidden div
 
 <!--
 Steps:
