@@ -427,6 +427,16 @@ var all = num + " Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.t
 document.getElementById('copyContent').value = all;
 }
 check();
+    
+function myFunction() {
+el = document.createElement('textarea');
+el.value = all;
+document.body.appendChild(el);
+el.select();
+document.execCommand('copy');
+document.body.removeChild(el);
+}
+
 </script>
 
 <script>
@@ -449,8 +459,13 @@ Total: 0.00 MB ( 0.00 GB )
 <div id="test5" style="left: -9999px;">
 <textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;left: -9999px;overflow: hidden;" ></textarea>
 </div>
+<div id="test6" >
+<button onclick="myFunction()">Copy text</button>
+</div>
 </div>
 </div> 
+
+
   
   
   <script type="text/javascript"><!--
