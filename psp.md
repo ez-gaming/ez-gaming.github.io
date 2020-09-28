@@ -222,11 +222,11 @@ Memory Stick Capacity guide:<br>
     <div id="test2" style="text-align: center;">
     Select Games
     </div>
-    <div id="test3"  style="text-align: center;overflow: hidden;width:280px">
+    <div id="test3"  style="text-align:center;overflow:hidden;width:280px;">
     Click the Check Box
     </div>
     <div id="test4" >
-    <button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;; width:100%">Copy to Clipboard</button>
+    <button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey; width:100%;">Copy to Clipboard</button>
     </div>
 </div>
 </div> 
@@ -236,7 +236,6 @@ function check() {
 var add = 0;
 var num = 0;
 var title = "";
-var xx = "";
 if(document.getElementById("001").checked) { num += 1; add += 931.62; title += "\n300 March To Glory"; }
 if(document.getElementById("002").checked) { num += 1; add += 165.31; title += "\nAngry Birds"; }
 if(document.getElementById("003").checked) { num += 1; add += 1007.9; title += "\nApe Academy 2"; }
@@ -434,7 +433,7 @@ if(document.getElementById("194").checked) { num += 1; add += 1705.6; title += "
 if(document.getElementById("195").checked) { num += 1; add += 1295.81; title += "\nX Men Legends II Rise Of Apocolypse"; }
 if(document.getElementById("196").checked) { num += 1; add += 745.86; title += "\nYs Seven"; }
 if(document.getElementById("197").checked) { num += 1; add += 1312.7; title += "\nYs vs Sora no Kiseki Alternative Saga English Patch"; }
-if(document.getElementById("198").checked) { xx = 1; num += 1; add += 1673.63; title += "\nYu Gi Oh 5Ds Tag Force 5"; }
+if(document.getElementById("198").checked) { num += 1; add += 1673.63; title += "\nYu Gi Oh 5Ds Tag Force 5"; }
 var giby = add/1000;
 var total1 = num + " Games Selected";
 var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
