@@ -438,7 +438,7 @@ if(document.getElementById("198").checked) { num += 1; add += 1673.63; title += 
 var giby = add/1000;
 var total1 = num + " Games Selected";
 var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
-
+alert (num);
 if (num = 0) {
 document.getElementById('test2').innerHTML = "test";
 document.getElementById('test3').innerHTML = "test";
