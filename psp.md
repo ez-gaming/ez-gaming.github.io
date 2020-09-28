@@ -4,7 +4,7 @@ layout: default
 ## PSP Game List
 
 Note: Enable Javascript to load this page properly
-newnumelseif
+lseif
 
 <!--
 Steps:
@@ -440,12 +440,12 @@ var total1 = num + " Games Selected";
 var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
 var all = num + " PSP Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
 document.getElementById("demo").innerHTML = all;
-if (num > 0) {
-document.getElementById('test2').innerHTML = total1;
-document.getElementById('test3').innerHTML = total2;
-} elseif (num = 0) {
+if (num === 0) {
 document.getElementById('test2').innerHTML = "Select Games";
 document.getElementById('test3').innerHTML = "Click the Check Box";
+} else {
+document.getElementById('test2').innerHTML = total1;
+document.getElementById('test3').innerHTML = total2;
 }
 check();
 function myFunction() {
