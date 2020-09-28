@@ -237,7 +237,7 @@ function check() {
 var add = 0;
 var num = 0;
 var title = "";
-    var xx = "";
+var xx = "";
 if(document.getElementById("001").checked) { num += 1; add += 931.62; title += "\n300 March To Glory"; }
 if(document.getElementById("002").checked) { num += 1; add += 165.31; title += "\nAngry Birds"; }
 if(document.getElementById("003").checked) { num += 1; add += 1007.9; title += "\nApe Academy 2"; }
@@ -435,7 +435,7 @@ if(document.getElementById("194").checked) { num += 1; add += 1705.6; title += "
 if(document.getElementById("195").checked) { num += 1; add += 1295.81; title += "\nX Men Legends II Rise Of Apocolypse"; }
 if(document.getElementById("196").checked) { num += 1; add += 745.86; title += "\nYs Seven"; }
 if(document.getElementById("197").checked) { num += 1; add += 1312.7; title += "\nYs vs Sora no Kiseki Alternative Saga English Patch"; }
-if(document.getElementById("198").checked) { xx=1; num += 1; add += 1673.63; title += "\nYu Gi Oh 5Ds Tag Force 5"; }
+if(document.getElementById("198").checked) { xx == 1; num += 1; add += 1673.63; title += "\nYu Gi Oh 5Ds Tag Force 5"; }
 var giby = add/1000;
 var total1 = num + " Games Selected";
 var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
