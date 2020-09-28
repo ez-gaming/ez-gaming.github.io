@@ -4,7 +4,7 @@ layout: default
 ## PSP Game List
 
 Note: Enable Javascript to load this page properly
-001
+002
 
 <!--
 Steps:
@@ -216,9 +216,6 @@ Memory Stick Capacity guide:<br>
 <label><input type="checkbox" id="197" onchange="check()"> Ys vs Sora no Kiseki Alternative Saga English Patch</label><br>
 <label><input type="checkbox" id="198" onchange="check()"> Yu Gi Oh 5Ds Tag Force 5</label><br>
 <br>
-<div id="test5">
-<textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;left: -9999px;overflow: hidden;" ></textarea>
-</div>
 
 <script>
 function check() {
@@ -448,13 +445,17 @@ document.body.removeChild(el);
 }
 </script>
 
+<div id="test5">
+<textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;left: -9999px;overflow: hidden;" ></textarea>
+</div>
+
 <div id="floatdiv" style="position: absolute; width:300px;height:110px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
 <div id="test2" >
-0 Games Selected
+Select Games
 </div>
 <div id="test3" >
-Total: 0.00 MB ( 0.00 GB )
+Click on the Check Box
 </div>
 <div id="test4" >
 <button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
