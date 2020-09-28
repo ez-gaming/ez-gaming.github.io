@@ -429,6 +429,7 @@ document.getElementById('copyContent').value = all;
 check();
     
 function myFunction() {
+var all = document.getElementById('test3').innerHTML;
 document.getElementById('test7').innerHTML = all;
 //el = document.createElement("textarea");
 //el.value = all;
