@@ -432,9 +432,12 @@ document.getElementById('copyContent').value = all;
 check();
     
 function myFunction() {
-document.getElementById('test7').innerHTML = all;
+var copyText0 = document.getElementById("copyContent");
+  copyText0.select();
+  copyText0.setSelectionRange(0, 99999); /*For mobile devices*/
+document.execCommand("copy");
 el = document.createElement("textarea");
-el.value = "test";
+el.value = copyText0;
 var copyText = document.getElementById("textarea");
 document.body.appendChild(el);
 copyText.select();
