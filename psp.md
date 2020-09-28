@@ -214,6 +214,7 @@ Memory Stick Capacity guide:<br>
 <label><input type="checkbox" id="197" onchange="check()"> Ys vs Sora no Kiseki Alternative Saga English Patch</label><br>
 <label><input type="checkbox" id="198" onchange="check()"> Yu Gi Oh 5Ds Tag Force 5</label><br>
 <br>
+
 <script>
 function check() {
 var add = 0;
@@ -445,7 +446,7 @@ Total: 0.00 MB ( 0.00 GB )
 <div id="test4" >
 <button class="btn btn-primary" data-clipboard-action="copy" data-clipboard-target="#copyContent" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
 </div>
-<div id="test5">
+<div id="test5" style="display: none;">
 <textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;right: -500px;overflow: hidden;" ></textarea>
 </div>
 </div>
