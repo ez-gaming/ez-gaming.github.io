@@ -4,7 +4,7 @@ layout: default
 ## PSP Game List
 
 Note: Enable Javascript to load this page properly
-num
+newnum
 
 <!--
 Steps:
