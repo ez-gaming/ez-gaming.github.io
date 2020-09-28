@@ -5,10 +5,11 @@ layout: default
 
 Note: Enable Javascript to load this page properly
 
+<--
 Steps:
 1. Select / Check mark the games that you want. 
 2. Check Useable capacity for Memory Stick below.
-3. Click "Copy to Clipboard" and paste to Carousell chat.
+3. Click "Copy to Clipboard" and paste to Carousell chat. -->
 
 Memory Stick Capacity guide:<br>
 3.87 GB for 4 GB memory card<br>
@@ -461,10 +462,10 @@ document.body.removeChild(el);
 Total: 0.00 MB ( 0.00 GB )
 </div>
 <div id="test4" >
-<button class="btn btn-primary" data-clipboard-action="copy" data-clipboard-target="#copyContent" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
-</div>
-<div id="test5" >
-<button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy</button>
+
+<--<button class="btn btn-primary" data-clipboard-action="copy" data-clipboard-target="#copyContent" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>-->
+
+<button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
 </div>
 </div>
 </div> 
