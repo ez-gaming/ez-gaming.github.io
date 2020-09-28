@@ -213,8 +213,23 @@ Memory Stick Capacity guide:<br>
 <label><input type="checkbox" id="195" onchange="check()"> X Men Legends II Rise Of Apocolypse</label><br>
 <label><input type="checkbox" id="196" onchange="check()"> Ys Seven</label><br>
 <label><input type="checkbox" id="197" onchange="check()"> Ys vs Sora no Kiseki Alternative Saga English Patch</label><br>
-<label><input type="checkbox" id="198" onchange="check()"> Yu Gi Oh 5Ds Tag Force 5</label><br>
-<br>
+<label><input type="checkbox" id="198" onchange="check()"> Yu Gi Oh 5Ds Tag Force 5</label>
+
+<div id="divCheckbox" style="visibility: hidden"><p id="demo"></p></div>
+
+<div id="floatdiv" style="position: absolute; width:300px;height:110px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
+<div>
+<div id="test2" >
+Select Games
+</div>
+<div id="test3" >
+Click on the Check Box
+</div>
+<div id="test4" >
+<button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
+</div>
+</div>
+</div> 
 
 <script>
 function check() {
@@ -440,22 +455,6 @@ document.execCommand('copy');
 document.body.removeChild(el);
 }
 </script>
-
-<div id="divCheckbox" style="visibility: hidden"><p id="demo"></p></div>
-
-<div id="floatdiv" style="position: absolute; width:300px;height:110px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
-<div>
-<div id="test2" >
-Select Games
-</div>
-<div id="test3" >
-Click on the Check Box
-</div>
-<div id="test4" >
-<button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
-</div>
-</div>
-</div> 
 
 <script type="text/javascript">
 var floatingMenu =
@@ -1055,4 +1054,5 @@ floatingArray[0].targetRight=10;
 floatingArray[0].centerX=undefined;
 floatingArray[0].centerY=undefined;
 }
-//--></script>
+//-->
+</script>
