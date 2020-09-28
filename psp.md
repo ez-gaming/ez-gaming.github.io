@@ -4,7 +4,7 @@ layout: default
 ## PSP Game List
 
 Note: Enable Javascript to load this page properly
-001
+003
 
 <!--
 Steps:
@@ -216,7 +216,9 @@ Memory Stick Capacity guide:<br>
 <label><input type="checkbox" id="197" onchange="check()"> Ys vs Sora no Kiseki Alternative Saga English Patch</label><br>
 <label><input type="checkbox" id="198" onchange="check()"> Yu Gi Oh 5Ds Tag Force 5</label><br>
 <br>
-<div id="divhidden" style="visibility: hidden"></div>
+<div id="test5">
+<textarea  id="copyContent" class="form-control" rows="0" style="height: 0px;width:0px;left: -9999px;overflow: hidden;" ></textarea>
+</div>
 
 <script>
 function check() {
@@ -428,14 +430,12 @@ document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
 var all = num + " PSP Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
 document.getElementById('copyContent').value = all;
-document.getElementById('divhidden').innerHTML = all;
 }
 check();
     
 function myFunction() {
-var x = document.getElementById('divhidden');
+var x = document.getElementById('copyContent');
 var y = x.value;
-var copyText0 = document.getElementById('divhidden');
 var el = document.createElement('textarea');
 el.value = y;
 el.setAttribute('readonly', '');
