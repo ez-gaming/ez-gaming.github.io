@@ -4,6 +4,7 @@ layout: default
 ## PSP Game List
 
 Note: Enable Javascript to load this page properly
+001
 
 <!--
 Steps:
@@ -432,7 +433,7 @@ document.getElementById('copyContent').value = all;
 var y = all;
 }
 check();
-
+var y = all;
 function myFunction() {
 var x = document.getElementById('copyContent');
 
@@ -447,15 +448,7 @@ document.body.removeChild(el);
 }
 </script>
 
-<!--
-<script>
-    (function(){
-        var clipboard = new Clipboard('.btn');
-    })();
-</script>
--->
-
-<div id="floatdiv" style="position: absolute; width:280px;height:110px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
+<div id="floatdiv" style="position: absolute; width:300px;height:110px;top:0px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
 <div id="test2" >
 0 Games Selected
@@ -464,25 +457,12 @@ document.body.removeChild(el);
 Total: 0.00 MB ( 0.00 GB )
 </div>
 <div id="test4" >
-
-<!--<button class="btn btn-primary" data-clipboard-action="copy" data-clipboard-target="#copyContent" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>-->
-
 <button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey;">Copy to Clipboard</button>
 </div>
 </div>
 </div> 
 
-
-  
-  
-  <script type="text/javascript"><!--
-/* Script by: www.jtricks.com
- * Version: 1.12 (20120823)
- * Latest version: www.jtricks.com/javascript/navigation/floating.html
- *
- * License:
- * GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
- */
+<script type="text/javascript">
 var floatingMenu =
 {
     hasInner: typeof(window.innerWidth) == 'number',
