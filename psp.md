@@ -222,11 +222,11 @@ Memory Stick Capacity guide:<br>
     <div id="test2" style="text-align: center;">
         Select PSP Games
     </div>
-    <div id="test3"  style="text-align:center;overflow:hidden;width:280px;">
+    <div id="test3"  style="text-align:center;overflow:hidden;width:auto;">
         Click the Check Box
     </div>
     <div id="test4" >
-        <button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey; width:100%;">Copy to Clipboard</button>
+        <button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey; width:auto;">Copy to Clipboard</button>
     </div>
 </div>
 </div> 
