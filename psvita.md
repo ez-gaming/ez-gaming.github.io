@@ -116,10 +116,10 @@ PSVita cards Capacity guide:<br>
 <div id="floatdiv" style="position: absolute; width:300px;height:110px;top:10px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
     <div id="test2" style="text-align: center;">
-    Select Games
+        Select PSVITA Games
     </div>
     <div id="test3"  style="text-align:center;overflow:hidden;width:280px;">
-    Click the Check Box
+        Click the Check Box
     </div>
     <div id="test4" >
     <button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey; width:100%;">Copy to Clipboard</button>
@@ -225,8 +225,13 @@ if(document.getElementById("090").checked) { num += 1; add += 1600; title += "\n
 if(document.getElementById("091").checked) { num += 1; add += 1250; title += "\nZero Escape Virtues Last Reward"; }
 if(document.getElementById("092").checked) { num += 1; add += 483; title += "\nYs Memories of Celceta"; }
 var giby = add/1000;
-var total1 = num + " Games Selected";
+if (num > 0) {
+var total1 = num + " PSVITA Games Selected";
 var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
+} else {
+var total1 = "Select PSVITA Games";
+var total2 = "Click the Check Box";
+}
 document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
 var all = num + " PSVITA Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
