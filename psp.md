@@ -217,7 +217,7 @@ Memory Stick Capacity guide:<br>
 
 <div id="divCheckbox" style="display:none"><p id="demo"></p></div>
 
-<div id="floatdiv" style="position: absolute; width:300px;height:110px;top:10px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
+<div id="floatdiv" style="position: absolute; width:300px;height:auto;top:10px;right:10px; background:#FFFFFF; border:1px solid #000000; z-index: 100; padding:10px">
 <div>
     <div id="test2" style="text-align: center;">
         Select PSP Games
