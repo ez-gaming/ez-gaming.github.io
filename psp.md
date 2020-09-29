@@ -226,7 +226,7 @@ Memory Stick Capacity guide:<br>
         Click the Check Box
     </div>
     <div id="test4" >
-        <button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px 0 0 0; cursor: pointer; display: inline-block; background: lightgrey; width:100%;">Copy to Clipboard</button>
+        <button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 10px 0 0 0; cursor: pointer; display: inline-block; background: lightgrey; width:100%;">Copy to Clipboard</button>
     </div>
 </div>
 </div> 
