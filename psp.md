@@ -217,16 +217,16 @@ Memory Stick Capacity guide:<br>
 
 <div id="divCheckbox" style="display:none"><p id="demo"></p></div>
 
-<div id="floatdiv" style="position: absolute; width:300px;height:auto;top:10px;right:10px; background:#FFFFFF; border:1px solid #000000; z-index: 100; padding:5px 10px">
+<div id="floatdiv" style="position: absolute; width:300px;height:110px;top:10px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
-    <div id="test2" style="text-align: center;padding:5px 0 0 0;">
+    <div id="test2" style="text-align: center;">
         Select PSP Games
     </div>
-    <div id="test3"  style="text-align:center;overflow:hidden;width:100%;padding:0 0 5px 0;">
+    <div id="test3"  style="text-align:center;overflow:hidden;width:280px;">
         Click the Check Box
     </div>
     <div id="test4" >
-        <button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; cursor: pointer; display: inline-block; background: lightgrey; width:100%;height:auto;">
+        <button class="btn btn-primary" onclick="myFunction()" style="border: 1px solid black; padding: 5px; cursor: pointer; display: inline-block; background: lightgrey; width:100%;">
             Copy to Clipboard
         </button>
     </div>
