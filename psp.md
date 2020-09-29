@@ -220,7 +220,7 @@ Memory Stick Capacity guide:<br>
 <div id="floatdiv" style="position: absolute; width:300px;height:110px;top:10px;right:10px; background:#FFFFFF; border:1px solid #2266AA; z-index: 100; padding:10px">
 <div>
     <div id="test2" style="text-align: center;">
-        Select Games
+        Select PSP Games
     </div>
     <div id="test3"  style="text-align:center;overflow:hidden;width:280px;">
         Click the Check Box
@@ -435,8 +435,13 @@ if(document.getElementById("196").checked) { num += 1; add += 745.86; title += "
 if(document.getElementById("197").checked) { num += 1; add += 1312.7; title += "\nYs vs Sora no Kiseki Alternative Saga English Patch"; }
 if(document.getElementById("198").checked) { num += 1; add += 1673.63; title += "\nYu Gi Oh 5Ds Tag Force 5"; }
 var giby = add/1000;
-var total1 = num + " Games Selected";
+if (num > 0) {
+var total1 = num + " PSP Games Selected";
 var total2 = "Total: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \)";
+} else {
+var total1 = "Select PSP Games";
+var total2 = "Click the Check Box";
+}
 document.getElementById('test2').innerHTML = total1;
 document.getElementById('test3').innerHTML = total2;
 var all = num + " PSP Games Selected\nTotal: " + add.toFixed(2) + " MB \( " + giby.toFixed(2) +" GB \) \n" + title;
