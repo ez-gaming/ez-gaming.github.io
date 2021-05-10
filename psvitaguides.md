@@ -18,8 +18,29 @@ layout: default
 *   Game will start to download on the home screen. Games that are installed on your vita will be shown with a white dot on the game list beside the game title
 *   If there are no game list or to refresh the game list, press <strong>Tringle</strong> to get a menu, and then scroll down and select <strong>Refresh</strong>. Also tick the region of the games you want to show up on the list
 *   For more info about PKGj [click here](//bit.ly/35sBYV7){:target="_blank"}
-<iframe src="https://www.youtube.com/watch?v=RKTUeLC9aKI"
-   width="560" height="315" frameborder="0" allowfullscreen></iframe>
+
+   
+   <style>
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+<div class='embed-container'>
+  <iframe title="YouTube video player" width="640" height="390" src="https://www.youtube.com/watch?v=RKTUeLC9aKI" frameborder="0" allowfullscreen></iframe>
+</div>
 
 
 ## How to install DLC for PS Vita Games?
