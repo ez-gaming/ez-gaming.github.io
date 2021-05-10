@@ -8,7 +8,7 @@ layout: default
 *   Select <strong>Wi-Fi Settings<strong>
 *   Choose the wireless network (also called the Network Name or SSID) to which you would like to connect. If you are using a Shaw wireless modem you will be able to find your network name and password via the white sticker on the top of the modem
 *   Enter the Wi-Fi password for your wireless networks and connect. A solid green dot will display on the left side of your network name indicating successful connection
-<iframe width="100%" height="315" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
+<iframe width="100%" height="Auto" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
 
 ## How to install PS Vita Games?
 (Prerequisite: PKGj & NoNpDRM)-preinstalled
