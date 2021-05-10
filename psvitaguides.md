@@ -20,7 +20,7 @@ layout: default
 *   For more info about PKGj [click here](//bit.ly/35sBYV7){:target="_blank"}
 
    
- <iframe width="auto" height="315" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
+ <iframe width=100% height="315" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
 
 
 ## How to install DLC for PS Vita Games?
