@@ -18,6 +18,10 @@ layout: default
 *   Game will start to download on the home screen. Games that are installed on your vita will be shown with a white dot on the game list beside the game title
 *   If there are no game list or to refresh the game list, press <strong>Tringle</strong> to get a menu, and then scroll down and select <strong>Refresh</strong>. Also tick the region of the games you want to show up on the list
 *   For more info about PKGj [click here](//bit.ly/35sBYV7){:target="_blank"}
+<div class="video-responsive">
+    <iframe width="420" height="315" src="https://www.youtube.com/watch?v=RKTUeLC9aKI" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 ## How to install DLC for PS Vita Games?
 (Prerequisite: PKGj & NoNpDRM)-preinstalled
