@@ -66,8 +66,7 @@ Adding games:
 Deleting games:
 *	Access the games on the XMB under Game > Memory Stick
 *	Select the Game you want to delete
-*	Press Triagle then select DELETE
-
-
+*	Press Triagle for Options menu
+*	Scroll down and select "Delete" and press Circle
 
 Note: All the information provided here is public knowledge and can be obtained by searching online. This is an index and collection to some of that information and guides. No infringement intended.
