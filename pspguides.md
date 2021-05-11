@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## How to install a PSP Game?
+## How to install PSP Games?
 Method 1:  
 * Take out the memory stick / memory stick adapter with microsd from the psp
 *	Use a USB card reader to read the memory stick and plug it the computer (PC)
@@ -20,7 +20,7 @@ Adding games:
 *	Access the games on the XMB under Game > Memory Stick
 <iframe width="100%" height="315" src="" frameborder="0"></iframe>
 
-## How to install a PlayStation One Game?
+## How to install PlayStation One Games?
 Method 1:  
 * Take out the memory stick / memory stick adapter with microsd from the psp
 *	Use a USB card reader to read the memory stick and plug it the computer (PC)
