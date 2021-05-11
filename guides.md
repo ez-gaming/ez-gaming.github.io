@@ -75,3 +75,5 @@ layout: default
 
 ## Pro TIP!!
 *   If you experience anything out of the ordinary or any malfunction, just reboot or shutdown then turn back on your vita. Long press on the power button until you see a shutdown button appear on screen. Most the time a simple reboot solves common issues. Enjoy and have fun on your modded PS Vita.
+
+Note: All the information provided here is public knowledge and can be obtained by searching online. This is an index and collection to some of that information and guides. No infringement intended.
