@@ -1,90 +1,39 @@
 ---
 layout: default
 ---
-## How to Connect to Wi-Fi Network?
-*   From the Vita home screen, tap <strong>Settings</strong> 
-*   Select <strong>Start<strong>
-*   Select <strong>Network<strong>
-*   Select <strong>Wi-Fi Settings<strong>
-*   Choose the wireless network (also called the Network Name or SSID) to which you would like to connect. If you are using a Shaw wireless modem you will be able to find your network name and password via the white sticker on the top of the modem
-*   Enter the Wi-Fi password for your wireless networks and connect. A solid green dot will display on the left side of your network name indicating successful connection
-<iframe width="100%" height="Auto" src="" frameborder="0"></iframe>
-
-## How to install PS Vita Games?
-(Prerequisite: PKGj & NoNpDRM)-preinstalled
-*   From the Vita home screen, tap <strong>PKGj</strong> App
-*   Select <strong>Start<strong>
-*   It should list all available games for download
-*   Select the Game title you want to download then click <strong>Circle</strong> then select <strong>Install</strong>. Any patches available for that game will also be installed.
-*   Game will start to download on the home screen. Games that are installed on your vita will be shown with a white dot on the game list beside the game title
-*   If there are no game list or to refresh the game list, press <strong>Tringle</strong> to get a menu, and then scroll down and select <strong>Refresh</strong>. Also tick the region of the games you want to show up on the list
-*   For more info about PKGj [click here](//bit.ly/35sBYV7){:target="_blank"}
+## How to install a PSP Game?
+Method 1:  
+*   Take out the memory stick / memory stick adapter with microsd from the psp
+*	Use a USB card reader to read the memory stick and plug it the computer (PC)
+*	Access the ISO folder on the memory card
+Method 2:
+*	Using a Mini USB cable plug on the usb port on top of the PSP
+*	Plug the other in to the computer (PC) it should automatically detect as a removable drive on the PC
+*	Access the ISO folder on the memory card
+Adding games:
+*   Download PSP games in ISO or CSO format. (Google is your friend)
+*	Extract the download file if it's in zip or other archive format.
+*   Copy over or drag and drop the ISO or CSO format game files to the ISO folder on the memory card
+*	Once done, safely remove the memory card from the PC (or press X for method 2) and insert it to the PSP console (method 1 only)
+*	Access the games on the XMB under Game > Memory Stick
 <iframe width="100%" height="315" src="" frameborder="0"></iframe>
 
-
-## How to install DLC for PS Vita Games?
-(Prerequisite: PKGj & NoNpDRM)-preinstalled
-*   From the Vita home screen, tap <strong>PKGj</strong> App
-*   Select <strong>Start<strong>
-*   It should list all available games for download. Press <strong>Tringle</strong> to get a menu, and then scroll down and select <strong>Show DLCs</strong>
-*   Select the Game title you want to download the available DLCs then click <strong>Circle</strong> to install. 
-*   Once download is completed open the game to apply the DLCs
+## How to install a PlayStation One Game?
+Method 1:  
+*   Take out the memory stick / memory stick adapter with microsd from the psp
+*	Use a USB card reader to read the memory stick and plug it the computer (PC)
+*	Access the PSP/GAME folder on the memory card
+Method 2:
+*	Using a Mini USB cable plug on the usb port on top of the PSP
+*	Plug the other in to the computer (PC) it should automatically detect as a removable drive on the PC
+*	Access the PSP/GAME folder on the memory card 
+Adding games:
+*   Download PlayStation One games in EBOOT format. (Google is your friend)
+*	Extract the download file if it's in zip or other archive format.
+*	Create a folder under PSP/GAME folder on the memory card and name it to the game title in all CAPS with no spaces. (eg: MEGAMAN01)
+*   Copy over or drag and drop the EBOOT format game files to the folder you've just created on the memory card
+*	Once done, safely remove the memory card from the PC (or press X for method 2) and insert it to the PSP console (method 1 only)
+*	Access the games on the XMB under Game > Memory Stick
 <iframe width="100%" height="315" src="" frameborder="0"></iframe>
-
-## How to install PSP Games?
-(Prerequisite: PKGj & Adrenaline)-preinstalled
-*   From the Vita home screen, tap <strong>PKGj</strong> App
-*   Select <strong>Start<strong>
-*   Press <strong>Tringle</strong> to get a menu, and then scroll down and select <strong>Show PSP games</strong>
-*   Select the Game title you want to download then click <strong>Circle</strong> to install
-*   Once download is completed open the <strong>Adrenaline</strong> App to start the PSP XMB
-*   The game you've just download will be available under <strong>Game</strong> then <strong>Memory Stick</strong>
-*   For more info about Adrenaline [click here](//bit.ly/2rGCoZb){:target="_blank"}
-<iframe width="100%" height="315" src="" frameborder="0"></iframe>
-
-## How to install PS1(PSX) Games?
-(Prerequisite: PKGj & Adrenaline)-preinstalled
-*   From the Vita home screen, tap <strong>PKGj</strong> App
-*   Select <strong>Start<strong>
-*   Press <strong>Tringle</strong> to get a menu, and then scroll down and select <strong>Show PSX games</strong>
-*   Select the Game title you want to download then click <strong>Circle</strong> to install. 
-*   Once download is completed open the <strong>Adrenaline</strong> App to start the PSP XMB.
-*   The game you've just download will be available under <strong>Game</strong> then <strong>Memory Stick</strong>
-<iframe width="100%" height="315" src="" frameborder="0"></iframe>
-
-## How to get out of Adrenaline (PSP XMB)?
-*   While on PSP XMB or while playing a PSP or PSX game, hold down the <strong>PS Button</strong>.
-*   A menu will pop-up, click on <strong>Settings</strong>
-*   Select <strong>Exit PsPEmu Application</strong>
-*   Then swipe across Adrenaline to close it or swipe Left to go to home screen
-<iframe width="100%" height="315" src="" frameborder="0"></iframe>
-
-## How to delete PS Vita Games?
-*   From the home screen, long press on the Game icon you want to delete
-*   Click on the small bubble on the icon then select <strong>Delete</strong>
-<iframe width="100%" height="315" src="" frameborder="0"></iframe>
-
-## How to delete PSP & PSX Games?
-*   While inside Adrenaline (PSP XMB) go to "Game"
-*   Then "Memory Stick"
-*   Select the game you want to delete then press "Triangle" then select "Delete"
-<iframe width="100%" height="315" src="" frameborder="0"></iframe>
-
-## How to screenshot your PS Vita screen?
-(Prerequisite: pngshot)-preinstalled
-*   While you're anywhere on your vita press "PS Button + Start" together.
-*   Your screen should flicker indicating a screenshot has been made. The png file will then be available in the Camera app.
-*   For more info about pngshot [click here](//bit.ly/36wGHF6){:target="_blank"}
-<iframe width="100%" height="315" src="" frameborder="0"></iframe>
-
-## How to Overclock your vita?
-(Prerequisite: PSVshell)-preinstalled
-*   From the Vita home screen, press <strong>SELECT + UP</strong> to toggle between 3 GUI modes
-*   For more info and in-depth instructions about using PSVshell to overclock your vita [click here](//bit.ly/34l3Rg5){:target="_blank"}
-*   Caution though overclocking shortens your battery life and possibly your vita as well. Use only if you really need to. Research before doing anything to your vita.
-<iframe width="100%" height="315" src="" frameborder="0"></iframe>
-
-## Pro TIP!!
-*   If you experience anything out of the ordinary or any malfunction, just reboot or shutdown then turn back on your vita. Long press on the power button until you see a shutdown button appear on screen. Most the time a simple reboot solves common issues. Enjoy and have fun on your modded PS Vita.
 
 Note: All the information provided here is public knowledge and can be obtained by searching online. This is an index and collection to some of that information and guides. No infringement intended.
