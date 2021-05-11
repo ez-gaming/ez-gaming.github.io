@@ -62,4 +62,12 @@ Adding games:
 * Press Circle (o) to run the emulator
 * Load/Run the ROM games
 
+## How to delete PSP / PlayStation One Games?
+Deleting games:
+*	Access the games on the XMB under Game > Memory Stick
+*	Select the Game you want to delete
+*	Press Triagle then select DELETE
+
+
+
 Note: All the information provided here is public knowledge and can be obtained by searching online. This is an index and collection to some of that information and guides. No infringement intended.
