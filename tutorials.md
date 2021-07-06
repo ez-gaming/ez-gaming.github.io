@@ -10,6 +10,6 @@ layout: default
 
 ## PSVita Tuturials
 
-*   [PS Vita General Guide](//bit.ly/2lO7bva){:target="_blank"}
+*   [Check if PSVita Game is available for download.](//bit.ly/3ywNqga){:target="_blank"}
 *   [How to prep SD2VITA adapter](//bit.ly/2NeXvXH){:target="_blank"}
 *   [PSVita games size guide](//bit.ly/2KUqqmZ){:target="_blank"}
